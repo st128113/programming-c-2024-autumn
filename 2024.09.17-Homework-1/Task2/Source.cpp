@@ -2,8 +2,9 @@
 
 int main(int argc, char* argv[])
 {
-    int A = 0;
-    scanf("%d", &A);
-    printf("%d", A);
+    int a = 0;
+    scanf("%d", &a);
+    printf("%d", a);
+    
     return EXIT_SUCCESS;
 }

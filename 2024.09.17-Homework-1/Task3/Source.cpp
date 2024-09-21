@@ -2,9 +2,11 @@
 
 int main(int argc, char* argv[])
 {
-    int A = 0;
-    scanf("%d", &A);
-    int B = A + 1;
-    printf("%d", B);
+    int a = 0;
+    scanf("%d", &a);
+
+    int b = a + 1;
+    printf("%d", b);
+
     return EXIT_SUCCESS;
 }

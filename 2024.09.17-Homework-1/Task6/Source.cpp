@@ -2,13 +2,15 @@
 
 int main(int argc, char* argv[])
 {
-    int G = 0;
-    int L = 0;
-    scanf("%d", &G);
-    scanf("%d", &L);
-    int B = G + L - 1;
-    int X = L - 1;
-    int Y = G - 1;
-    printf("%d %d\n", X, Y);
+    int g = 0;
+    int l = 0;
+    scanf("%d", &g);
+    scanf("%d", &l);
+
+    int b = g + l - 1;
+    int x = l - 1;
+    int y = g - 1;
+    printf("%d %d\n", x, y);
+
     return EXIT_SUCCESS;
 }

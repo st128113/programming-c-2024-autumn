@@ -2,9 +2,11 @@
 
 int main(int argc, char* argv[])
 {
-    int A = 0;
-    scanf("%d", &A);
-    int = (A % 10) + (A / 10 % 10) + (A / 100);
-    printf("%d", S);
+    int a = 0;
+    scanf("%d", &a);
+
+    int = (a % 10) + (a / 10 % 10) + (a / 100);
+    printf("%d", s);
+
     return EXIT_SUCCESS;
 }

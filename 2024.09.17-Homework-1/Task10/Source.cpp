@@ -2,12 +2,15 @@
 
 int main(int argc, char* argv[])
 {
-    int S = 0;
-    scanf("%d", &S);
-    int X = S / 6;
-    int K = 4 * X;
-    printf("%d\n", X);
-    printf("%d\n", K);
-    printf("%d\n", X);
+    int s = 0;
+    scanf("%d", &s);
+    
+    int x = s / 6;
+    int k = 4 * x;
+
+    printf("%d\n", x);
+    printf("%d\n", k);
+    printf("%d\n", x);
+    
     return EXIT_SUCCESS;
 }

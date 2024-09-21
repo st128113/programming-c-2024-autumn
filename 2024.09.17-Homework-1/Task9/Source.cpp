@@ -2,14 +2,16 @@
 
 int main(int argc, char* argv[])
 {
-    int H = 0;
-    int A = 0;
-    int B = 0;
-    scanf("%d", &H);
-    scanf("%d", &A);
-    scanf("%d", &B);
-    int N = A - B;
-    int D = (H <= A) ? 1 : ((H - A + N - 1) / N + 1);
-    printf("%d", D);
+    int h = 0;
+    int a = 0;
+    int b = 0;
+    scanf("%d", &h);
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    int n = a - b;
+    int d = (h <= a) ? 1 : ((h - a + n - 1) / n + 1);
+    printf("%d", d);
+
     return EXIT_SUCCESS;
 }
