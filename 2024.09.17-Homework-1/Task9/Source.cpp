@@ -1,17 +1,21 @@
 #include<iostream>
-
 int main(int argc, char* argv[])
 {
     int h = 0;
     int a = 0;
     int b = 0;
+    int day = 0;
     scanf("%d", &h);
     scanf("%d", &a);
     scanf("%d", &b);
-
-    int n = a - b;
-    int d = (h <= a) ? 1 : ((h - a + n - 1) / n + 1);
-    printf("%d", d);
-
+    
+    h = h + (((a - b) - h % (a - b)) % (a - b));
+    h = (h - a) * ((h / a) - ((h - a) / a));
+    day++;
+    h = h + (((a - b) - h % (a - b)) % (a - b));
+    day += h / (a - b);
+    
+    printf("%d", day);
+    
     return EXIT_SUCCESS;
 }
