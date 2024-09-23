@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     scanf("%d", &b);
 
     int c = a * b * 2 * n;
-    printf("%d", C);
+    printf("%d", c);
     
     return EXIT_SUCCESS;
 }
