@@ -7,7 +7,6 @@ int main(int argc, char* argv[])
     scanf("%d", &g);
     scanf("%d", &l);
 
-    int b = g + l - 1;
     int x = l - 1;
     int y = g - 1;
     printf("%d %d\n", x, y);
