@@ -4,9 +4,9 @@ int main(int argc, char* argv[])
 {
     int c = 0;
     scanf("%d", &c);
-    int d[100];
-    int p[100];
-    int q[100];
+    int d[100] = { 0 };
+    int p[100] = { 0 };
+    int q[100] = { 0 };
 
     for (int i = 0; i < c; ++i) {
         scanf("%d", &d[i]);
