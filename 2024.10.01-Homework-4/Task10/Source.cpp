@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
     scanf("%d", &b);
     scanf("%d", &c);
     scanf("%d", &d);
-    int q[1000];
+    int q[1000] = { 0 };
 
     for (int i = 0; i < n; ++i) {
         q[i] = i + 1;
