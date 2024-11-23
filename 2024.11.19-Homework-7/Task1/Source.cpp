@@ -4,7 +4,7 @@
 int* sozdatMassiv(int razmer) {
     int* rezultat = (int*)malloc(sizeof(int) * razmer);
     if (!rezultat) {
-        std::cerr << "Oshibka vydeleniya pamyati!" << std::endl;
+        std::cout << "Oshibka vydeleniya pamyati!" << std::endl;
         return 0;
     }
     return rezultat;
@@ -20,7 +20,7 @@ void printMassiv(int* massiv, int razmer) {
 void rasshiritMassiv(int** massiv, int* razmer) {
     int* noviyMassiv = (int*)malloc(sizeof(int) * (*razmer + 1));
     if (!noviyMassiv) {
-        std::cerr << "Oshibka vydeleniya pamyati!" << std::endl;
+        std::cout << "Oshibka vydeleniya pamyati!" << std::endl;
         return;
     }
     for (int i = 0; i < *razmer; ++i) {
@@ -39,7 +39,7 @@ void dobavitVKonets(int** massiv, int* razmer, int znachenie) {
 void dobavitVNachalo(int** massiv, int* razmer, int znachenie) {
     int* noviyMassiv = (int*)malloc(sizeof(int) * (*razmer + 1));
     if (!noviyMassiv) {
-        std::cerr << "Oshibka vydeleniya pamyati!" << std::endl;
+        std::cout << "Oshibka vydeleniya pamyati!" << std::endl;
         return;
     }
     noviyMassiv[0] = znachenie;
